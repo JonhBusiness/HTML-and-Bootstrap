@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-white{
+    margin:10px;
+}
+/* .navbar-nav{
+    display: flex;
+    justify-content: end;
+} */
+img{
+    object-fit: cover;
+    object-position: center;
+    
+}
+.card-img-top{
+    height: 250px;
+}
+.img-area{
+
+   height: 200px;
+   width: 200px;
+    
+}
+body {
+    background: linear-gradient(357deg, #9da2b7, #e4e5eb);
+    background-size: 400% 400%;
+
+    -webkit-animation: Animationbody 28s ease infinite;
+    -moz-animation: Animationbody 28s ease infinite;
+    animation: Animationbody 28s ease infinite;
+}
+
+@-webkit-keyframes Animationbody {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@-moz-keyframes Animationbody {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
+@keyframes Animationbody {
+    0%{background-position:48% 0%}
+    50%{background-position:53% 100%}
+    100%{background-position:48% 0%}
+}
